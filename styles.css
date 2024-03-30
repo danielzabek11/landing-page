@@ -99,6 +99,8 @@ img {
     font-weight: 800px;
     color: #1f2937;
     margin: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .boxes {
@@ -108,7 +110,6 @@ img {
     gap: 100px;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .box {
@@ -154,7 +155,10 @@ span {
 
 .action-container {
     padding: 25px;
-    margin: 25px 800px;
+    margin: 25px 50px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .call-action {
@@ -163,6 +167,9 @@ span {
     padding: 16px;
     display: flex;
     justify-content: space-around;
+    width: 800px;
+    gap: 64px;
+    
 }
 
 .call-action-button {
