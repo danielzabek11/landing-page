@@ -11,8 +11,8 @@
 .header-top {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
     padding: 10px;
     align-items: center;
 }
@@ -40,8 +40,8 @@ a {
 
 .header-bot {
     display: flex;
-    padding: 100px 10px 100px 10px;
-    margin: 0px 100px;
+    padding: 75px 10px 75px 10px;
+    margin: 0px 75px;
     justify-content: space-around;
 }
 
@@ -145,8 +145,39 @@ span {
     color: #1F2937;
     align-self: center;
 }
+
 .quote-author {
-    color:#1F2937;
+    color: #1F2937;
     font-weight: 800px;
     align-self: flex-end;
+}
+
+.action-container {
+    padding: 25px;
+    margin: 25px 800px;
+}
+
+.call-action {
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px white solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9f9f9;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 9px;
+    text-align: center;
 }
