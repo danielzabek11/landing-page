@@ -15,6 +15,8 @@
     margin-right: 75px;
     padding: 10px;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .header-top-logo {
@@ -43,6 +45,7 @@ a {
     padding: 75px 10px 75px 10px;
     margin: 0px 75px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .header-bot-left {
@@ -178,6 +181,7 @@ span {
     padding: 5px 20px;
     border-radius: 8px;
     border: 2px white solid;
+    align-self:center;
 }
 
 .footer {
